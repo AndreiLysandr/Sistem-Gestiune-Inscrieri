@@ -78,7 +78,7 @@ public class GuestsList {
      * nume SI prenume SAU email SAU numar de telefon.
      * --- "int num" este folosit doar in cazul cautarii prin email SAU telefon. Acesta ajuta la metoda "searchGuest"
      * din "Guest", pentru se putea returna tipul cerut dupa car (email SAU phoneNr)
-    */
+     */
     public int searchGuestList(String lastName, String firstName) {
         for (Guest g : participantsList) {
             if (g.searchGuest(lastName, firstName)) {
@@ -258,7 +258,7 @@ public class GuestsList {
      * din structura (if / else-if) in functie de elementele care se regasesc in arrayList
      * (nume SI prenume SAU email SAU telefon)
      */
-     public String[] requiredGuest(String[] field) {
+    public String[] requiredGuest(String[] field) {
         for (Guest g : participantsList) {
             for (int i = 0; i < 1; i++) {
                 if (g.getLastName().equalsIgnoreCase(field[i].toLowerCase()) &&

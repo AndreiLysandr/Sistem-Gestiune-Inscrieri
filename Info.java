@@ -7,8 +7,8 @@ public class Info {
      */
 
     public void regComplete() {
-            System.out.println("Inscrierea a fost efectuata cu succes! Te asteptam!");
-        }
+        System.out.println("Inscrierea a fost efectuata cu succes! Te asteptam!");
+    }
 
     public void waitingListReg(int n) {
         System.out.println("\nLocurile disponibile au fost deja ocupate."
