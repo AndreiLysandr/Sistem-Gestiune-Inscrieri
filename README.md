@@ -19,7 +19,7 @@ Clasa GuestList:
 #
 Clasa Info:
   
-   	- Clasa Info contine marea majoritate a textelor ce vor fi folosite in cod. 
+    - Clasa Info contine marea majoritate a textelor ce vor fi folosite in cod. 
     - Clasa a fost creata pentru a putea creste lizibilitatea codului.
 
 #
